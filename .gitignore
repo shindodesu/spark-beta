@@ -1,0 +1,7 @@
+node_modules/
+dist/
+output/
+.DS_Store
+# 実データの CSV は入れない（サンプルだけ追跡する）
+input/*.csv
+!input/applicants_sample.csv

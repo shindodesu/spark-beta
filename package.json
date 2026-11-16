@@ -1,0 +1,25 @@
+{
+  "name": "spark-beta",
+  "version": "1.0.0",
+  "description": "アカペラのシャッフルバンド自動編成（アンケートCSV→バンド表CSV）",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "run": "tsc && node dist/main.js"
+  },
+  "keywords": [
+    "reflare",
+    "band",
+    "csv"
+  ],
+  "author": "Kosuke Shindo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
